@@ -59,7 +59,7 @@ void setup() {
 
    Serial.println("Connecting to wifi");
    
-  IPAddress apIP(192,168,1,17);   //Static IP for wifi gateway
+  IPAddress apIP(192,168,1,18);   //Static IP for wifi gateway
    WiFi.softAPConfig(apIP, apIP, IPAddress(255, 255, 255, 0)); //set Static IP gateway on NodeMCU
    WiFi.softAP(ssid, pass); //turn on WIFI
 
